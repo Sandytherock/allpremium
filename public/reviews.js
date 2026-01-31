@@ -16,7 +16,7 @@ const defaultReviews = [
   {
     name: "Aayush K.",
     rating: 5,
-    text: "I got ChatGPT & Netflix both from SabkaPremium. Delivery was super fast!",
+    text: "I got ChatGPT & Netflix both from ALL PREMIUM. Delivery was super fast!",
     timestamp: "2025-01-15T10:00:00.000Z",
     isDefault: true
   },

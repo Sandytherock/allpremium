@@ -2,24 +2,23 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import FloatingButtons from '../components/FloatingButtons'
-import OrderNotification from '../components/OrderNotification'
+// Live notifications removed - static website
 import HeroSection from '../components/HeroSection'
 import FOMOSection from '../components/FOMOSection'
 import PromoSection from '../components/PromoSection'
-import CoachingSection from '../components/CoachingSection'
+// Coaching section removed - product-only website
 import PlansSection from '../components/PlansSection'
 import ChatGLMSection from '../components/ChatGLMSection'
 import HowToOrderSection from '../components/HowToOrderSection'
 import PaymentProofsSection from '../components/PaymentProofsSection'
-import AboutCoachSection from '../components/AboutCoachSection'
+// About coach section removed - product-only website
 import TestimonialsSection from '../components/TestimonialsSection'
 import WhatsAppCommunity from '../components/WhatsAppCommunity'
 import WhatsAppCommunityBanner from '../components/WhatsAppCommunityBanner'
 import PriceComparisonTable from '../components/PriceComparisonTable'
 import ExitIntentPopup from '../components/ExitIntentPopup'
-import ComboDeals from '../components/ComboDeals'
 import CountdownTimer from '../components/CountdownTimer'
-import LiveStatistics from '../components/LiveStatistics'
+// Live statistics removed - static website
 import SecurityBadges from '../components/SecurityBadges'
 import FAQSection from '../components/FAQSection'
 import '../components/WhatsAppCommunity.css'
@@ -35,7 +34,6 @@ function Home() {
       <PromoSection />
       {/* Main Services - User sabse pehle yahi dekhna chahta hai */}
       <PlansSection />
-      <ComboDeals />
       <PriceComparisonTable />
       <ChatGLMSection />
       {/* How to Order - Simple process */}
@@ -43,16 +41,12 @@ function Home() {
       {/* Trust Building - Payment Proofs */}
       <PaymentProofsSection />
       <TestimonialsSection />
-      {/* Extra Value - Coaching after trust is built */}
-      <CoachingSection />
-      <AboutCoachSection />
       {/* Community & Support */}
       <WhatsAppCommunity />
       {/* FAQ - Last doubts clear */}
       <FAQSection />
       <Footer />
       <FloatingButtons />
-      <OrderNotification />
       <ExitIntentPopup />
     </>
   )

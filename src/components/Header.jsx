@@ -29,8 +29,7 @@ function Header() {
     <header className="site-header">
       <div className="container nav">
         <Link to="/" className="brand" onClick={() => window.scrollTo(0, 0)}>
-          <img src="/assets/logo.png" alt="SabkaPremium" loading="eager" />
-          <span>SabkaPremium</span>
+          <img src="/assets/logo.png" alt="ALL PREMIUM" loading="eager" className="brand-logo" />
         </Link>
         <button 
           className="hamburger" 
@@ -81,13 +80,10 @@ function Header() {
               setIsMenuOpen(false);
             }
           }}>How to Order</a>
-          <Link to="/reviews" className={`reviews-link ${isActive('/reviews')}`} onClick={() => setIsMenuOpen(false)}>
-            <i className="fa-solid fa-star"></i> Customer Reviews
-          </Link>
-          <a href="https://wa.me/919511335264" target="_blank" rel="noopener noreferrer" className="social-link">
+          <a href="https://wa.me/918530911484" target="_blank" rel="noopener noreferrer" className="social-link">
             <i className="fa-brands fa-whatsapp"></i> WhatsApp
           </a>
-          <a href="https://www.instagram.com/sabka_premium" target="_blank" rel="noopener noreferrer" className="social-link">
+          <a href="https://www.instagram.com/Accessly_store" target="_blank" rel="noopener noreferrer" className="social-link">
             <i className="fa-brands fa-instagram"></i> Instagram
           </a>
         </nav>

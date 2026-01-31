@@ -14,7 +14,7 @@ function FAQSection() {
             <summary>🔄 What if the account doesn't work?</summary>
             <p>
               We offer a <strong>100% Replacement Guarantee</strong>. If you face any login issues or service problems, 
-              we'll provide an instant replacement. Simply message us on Instagram, Telegram, or WhatsApp 
+              we'll provide an instant replacement. Simply message us on Instagram or WhatsApp 
               and we'll resolve the issue within <strong>24-48 hours</strong>.
             </p>
           </details>
@@ -61,7 +61,7 @@ function FAQSection() {
           <details>
             <summary>📱 What's the process after payment?</summary>
             <p>
-              <strong>Step 1:</strong> Make payment via UPI - <code>somya2208jain2208@okhdfcbank</code><br/>
+              <strong>Step 1:</strong> Make payment via UPI - <code>8530911484@pthdfc</code><br/>
               <strong>Step 2:</strong> Fill the Google Form with screenshot<br/>
               <strong>Step 3:</strong> Send a DM on Instagram for confirmation<br/>
               <strong>Step 4:</strong> Receive account details within 1-6 hours (login, password, instructions)<br/>
@@ -83,10 +83,9 @@ function FAQSection() {
             <summary>📞 How do I get support if I face problems?</summary>
             <p>
               We're available 24/7 (response time 2-12 hours):<br/>
-              • <strong>Instagram:</strong> @sabka_premium (fastest)<br/>
-              • <strong>Telegram:</strong> t.me/Somya2208<br/>
-              • <strong>WhatsApp:</strong> +91 95113 35264<br/>
-              • <strong>Email:</strong> sabkapremium01@gmail.com<br/>
+              • <strong>Instagram:</strong> @ALL_PREMIUM_store (fastest)<br/>
+              • <strong>WhatsApp:</strong> +91 85309 11484<br/>
+              • <strong>Email:</strong> accessly01@gmail.com<br/>
               Report any issues instantly and we'll help you out!
             </p>
           </details>

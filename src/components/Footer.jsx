@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="container grid-4">
         <div>
-          <img src="/assets/logo.png" alt="SabkaPremium" />
+          <img src="/assets/logo.png" alt="ALL PREMIUM" />
           <p>India's Most Trusted Affordable Premium Service Platform for Students & Creators.</p>
           
           {/* Security Trust Badges */}
@@ -41,7 +41,6 @@ function Footer() {
                 window.location.href = '/#how-to-order';
               }
             }}>How to Order</a></li>
-            <li><Link to="/reviews">Customer Reviews</Link></li>
           </ul>
         </div>
         <div>
@@ -56,20 +55,18 @@ function Footer() {
         <div>
           <h4>Follow Us</h4>
           <div className="socials">
-            <a href="https://instagram.com/sabka_premium" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://instagram.com/Accessly_store" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://t.me/Somya2208" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-              <i className="fa-brands fa-telegram"></i>
-            </a>
-            <a href="mailto:sabkapremium01@gmail.com" aria-label="Email">
+            {/* Telegram removed */}
+            <a href="mailto:accessly01@gmail.com" aria-label="Email">
               <i className="fa-solid fa-envelope"></i>
             </a>
           </div>
         </div>
       </div>
       <div className="foot-copy">
-        <p>© 2025 SabkaPremium.com | All rights reserved.</p>
+        <p>© 2025 ALL PREMIUM | All rights reserved.</p>
         <p>Made with ❤️ for Indian Students</p>
       </div>
     </footer>

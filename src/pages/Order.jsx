@@ -6,7 +6,6 @@ import FloatingButtons from '../components/FloatingButtons'
 import WhatsAppCommunityBanner from '../components/WhatsAppCommunityBanner'
 import { planMap, coupons } from '../data/orderPlansMap'
 import { supabase, isSupabaseConfigured } from '../lib/supabase'
-import { trackViewContent } from '../lib/metaPixel'
 import '../components/WhatsAppCommunityBanner.css'
 
 function Order() {
@@ -23,16 +22,7 @@ function Order() {
     if (plan && planMap[plan]) {
       const planData = planMap[plan]
       setSelectedPlan(planData)
-      
-      // Track ViewContent event when user views a product/plan
-      trackViewContent({
-        content_name: planData.name,
-        content_category: planData.category || 'subscription',
-        content_ids: [plan],
-        content_type: 'product',
-        value: planData.price,
-        currency: 'INR'
-      })
+
     }
     
     // Force scroll to top with multiple methods
@@ -119,7 +109,7 @@ function Order() {
       
       // 1. Send to Google Sheets (primary backup)
       const sheetsResponse = await fetch(
-        'https://script.google.com/macros/s/AKfycbz4O6KY0iVgy4XtFmg9NI0fLKWmb3iqISkZReo62UltYcYeyBjsOxWYfE4QtHXOKxky6g/exec',
+        'https://script.google.com/macros/s/AKfycbwDIk93__B2FN5MXbI6IJgbMpAQyTY1L9-COkFSbSX21XgG1Fask4FAz7adVTkfzxGumQ/exec',
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -167,7 +157,7 @@ function Order() {
       
     } catch (err) {
       console.error('Submission error:', err)
-      alert('Error submitting order. Please try again or contact us on Telegram/Instagram.')
+      alert('Error submitting order. Please try again or contact us on Instagram/WhatsApp.')
     } finally {
       submitBtn.disabled = false
       submitBtn.textContent = 'Submit Details'
@@ -202,7 +192,7 @@ function Order() {
           <div className="qr">
             <img src="/assets/upi-qr.png.jpg" alt="UPI QR Code" />
             <div className="upi-line">
-              <span>UPI ID:</span> <code>somya2208jain2208@okhdfcbank</code>
+              <span>UPI ID:</span> <code>8530911484@pthdfc</code>
             </div>
           </div>
 
@@ -281,8 +271,7 @@ function Order() {
 
             <p className="tiny">
               Facing issues? Reach us on{' '}
-              <a href="https://t.me/Somya2208" target="_blank" rel="noopener noreferrer">Telegram</a> or{' '}
-              <a href="https://instagram.com/sabka_premium" target="_blank" rel="noopener noreferrer">Instagram</a>.
+              <a href="https://instagram.com/Accessly_store" target="_blank" rel="noopener noreferrer">Instagram</a>.
             </p>
           </form>
         </section>

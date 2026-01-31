@@ -2,7 +2,7 @@ import React from 'react'
 
 function TestimonialsSection() {
   const testimonials = [
-    { text: "I got ChatGPT & Netflix both from SabkaPremium. Delivery was super fast!", author: "Aayush K." },
+    { text: "I got ChatGPT & Netflix both from ALL PREMIUM. Delivery was super fast!", author: "Aayush K." },
     { text: "Affordable and 100% working accounts. Highly recommended!", author: "Priya R." },
     { text: "Great service! My Canva Pro was activated within minutes.", author: "Rohan S." },
     { text: "My go-to for all OTT and AI tools. Super easy process!", author: "Neha P." },

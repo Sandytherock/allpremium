@@ -7,7 +7,7 @@ function HowToOrderSection() {
         <h2>How to Order</h2>
         <ol className="steps">
           <li>Select your service and plan.</li>
-          <li>Pay via UPI (Paytm / GPay / PhonePe)<br/><code>somya2208jain2208@okhdfcbank</code></li>
+          <li>Pay via UPI (Paytm / GPay / PhonePe)<br/><code>8530911484@pthdfc</code></li>
           <li>Fill the Google Form with details & screenshot.</li>
           <li>Drop One Msg On Our Instagram Handle.</li>
         </ol>

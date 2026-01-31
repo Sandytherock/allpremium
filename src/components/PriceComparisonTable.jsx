@@ -101,7 +101,7 @@ function PriceComparisonTable() {
               <tr>
                 <th>Service</th>
                 <th>Official Price</th>
-                <th className="highlight-col">SabkaPremium</th>
+                <th className="highlight-col">ALL PREMIUM</th>
                 <th>You Save</th>
               </tr>
             </thead>

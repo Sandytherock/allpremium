@@ -21,9 +21,9 @@ body {
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(1200px 600px at 20% -10%, rgba(20,184,166,.18), transparent 60%),
-    linear-gradient(180deg,#0b1513,#0b1513 40%,#08100e) !important;
-  color: #e7f7f3 !important;
+  background: radial-gradient(1200px 600px at 20% -10%, rgba(124,58,237,.15), transparent 60%),
+    linear-gradient(180deg,#0f0b1a,#0f0b1a 40%,#0a0614) !important;
+  color: #f0e7ff !important;
   margin: 0 !important;
   min-width: 320px !important;
   min-height: 100vh !important;
@@ -39,9 +39,9 @@ code {
 /* Order page wrapper styling - Override body styles for .order-body div */
 .order-body {
   min-height: 100vh;
-  background: radial-gradient(900px 400px at 20% -10%, rgba(20,184,166,.18), transparent 60%),
-    linear-gradient(180deg,#0b1513,#0b1513 40%,#08100e) !important;
-  color: #e7f7f3 !important;
+  background: radial-gradient(900px 400px at 20% -10%, rgba(124,58,237,.15), transparent 60%),
+    linear-gradient(180deg,#0f0b1a,#0f0b1a 40%,#0a0614) !important;
+  color: #f0e7ff !important;
 }
 
 /* Plan head styling for order page */
@@ -113,12 +113,12 @@ code {
 .order-body .box,
 .order-body .payment-card,
 .order-body .form-card {
-  background: rgba(15, 29, 26, 0.6) !important;
-  border: 1px solid rgba(20, 184, 166, 0.2) !important;
+  background: rgba(20, 15, 35, 0.6) !important;
+  border: 1px solid rgba(124, 58, 237, 0.3) !important;
 }
 
 .order-content-wrapper {
   flex: 1;
   width: 100%;
-  background: linear-gradient(135deg, #0f1d1a, #0c1916) !important;
+  background: linear-gradient(135deg, #1a0f2e, #120a24) !important;
 }

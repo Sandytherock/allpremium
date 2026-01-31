@@ -52,8 +52,7 @@ export const planMap = {
   "Spotify-6M-449": { name: "Spotify Premium - 6 Months", amount: "449", logo: "/assets/spotify-logo.png" },
   "Spotify-12M-799": { name: "Spotify Premium - 12 Months", amount: "799", logo: "/assets/spotify-logo.png" },
   
-  "Call-1On1-99": { name: "1-on-1 Strategy Call (15–20 min)", amount: "99", logo: "/assets/logo.png" },
-  "Software-A2Z-999": { name: "Software Dropshipping A to Z", amount: "999", logo: "/assets/logo.png" },
+  // Coaching plans removed - product-only website
   
   "ChatGLM-3M-2499": { name: "ChatGLM Pro Suite - 3 Months", amount: "999", logo: "/assets/chatglm-cover.jpg" },
   

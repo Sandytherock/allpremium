@@ -2,7 +2,7 @@ import React from 'react'
 
 function WhatsAppOrderButton({ plan, price, discount }) {
   const handleWhatsAppOrder = () => {
-    const phoneNumber = '919511335264' // Your WhatsApp Business Number
+    const phoneNumber = '918530911484' // Your WhatsApp Business Number
     
     const message = `Hi! 👋
 

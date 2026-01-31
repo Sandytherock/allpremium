@@ -87,7 +87,7 @@
 }
 
 .comparison-table thead {
-  background: linear-gradient(135deg, #0f766e 0%, #10a37f 100%);
+  background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);
   color: #e7f7f3;
   position: relative;
 }
@@ -100,7 +100,7 @@
 }
 
 .comparison-table th.highlight-col {
-  background: linear-gradient(135deg, #10a37f 0%, #128C7E 100%);
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
   text-align: center;
   position: relative;
 }
@@ -174,7 +174,7 @@
 
 .price-big {
   font-size: 1.5rem;
-  color: #10a37f;
+  color: #8b5cf6;
   font-weight: 800;
 }
 
@@ -211,7 +211,7 @@
 /* Footer Total Row */
 .total-row {
   background: linear-gradient(135deg, rgba(16, 163, 127, 0.15) 0%, rgba(16, 163, 127, 0.08) 100%);
-  border-top: 3px solid #10a37f !important;
+  border-top: 3px solid #8b5cf6 !important;
 }
 
 .total-row td {
@@ -230,7 +230,7 @@
 }
 
 .savings-card {
-  background: linear-gradient(135deg, #0f766e 0%, #10a37f 100%);
+  background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);
   padding: 30px;
   border-radius: 20px;
   color: white;
@@ -287,7 +287,7 @@
 
 .cta-button {
   display: inline-block;
-  background: linear-gradient(135deg, #10a37f 0%, #128C7E 100%);
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
   color: white;
   padding: 15px 40px;
   border-radius: 50px;
@@ -442,3 +442,4 @@
     font-size: 2rem;
   }
 }
+

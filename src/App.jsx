@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
-import PixelTracker from './components/PixelTracker'
 import Home from './pages/Home'
 import Order from './pages/Order'
-import Reviews from './pages/Reviews'
-
 function ScrollToTop() {
   const { pathname, search } = useLocation()
 
@@ -32,11 +29,9 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <PixelTracker />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/order" element={<Order />} />
-        <Route path="/reviews" element={<Reviews />} />
       </Routes>
     </Router>
   )

@@ -670,6 +670,60 @@ export const plansData = {
       originalPrice: '₹3,999',
       plan: 'LinkedIn-Sales-Navigator-2M-799',
       note: '⏳ Valid for 2 Months • Best for B2B sales & prospecting'
+    },
+    {
+      title: 'LinkedIn Career - 1 Year',
+      tag: '⭐ Best Value',
+      features: [
+        '💼 Premium Career Access - 12 Months',
+        '👀 See Who Viewed Your Profile',
+        '📧 Direct InMail Messages (5/month)',
+        '🎓 LinkedIn Learning Access',
+        '💡 Career Insights & Salary Data',
+        '🔍 Featured Applicant Status',
+        '📊 Applicant Insights & Competitor Analysis',
+        '🔐 Private Account Activation'
+      ],
+      price: '₹2999',
+      originalPrice: '₹17,999',
+      plan: 'LinkedIn-Career-12M-2999',
+      note: '⏳ Valid for 12 Months • Only ₹250/month • Best value for job seekers 🔥'
+    },
+    {
+      title: 'LinkedIn Business - 1 Year',
+      tag: 'Best for Growth',
+      features: [
+        '🚀 Premium Business Access - 12 Months',
+        '👀 Unlimited Profile Views',
+        '📧 15 InMail Credits/Month',
+        '🎓 Full LinkedIn Learning Access',
+        '💼 Business Insights & Analytics',
+        '🔍 Advanced Search Filters',
+        '📊 Company & Competitor Research',
+        '🔐 Private Account Activation'
+      ],
+      price: '₹3499',
+      originalPrice: '₹29,999',
+      plan: 'LinkedIn-Business-12M-3499',
+      note: '⏳ Valid for 12 Months • Only ₹291/month • Perfect for entrepreneurs 💼'
+    },
+    {
+      title: 'LinkedIn Sales Navigator - 1 Year',
+      tag: 'Premium Sales',
+      features: [
+        '🎯 Sales Navigator Core - 12 Months',
+        '🔍 Advanced Lead & Company Search',
+        '📧 20 InMail Credits/Month',
+        '💡 Lead Recommendations & Alerts',
+        '📊 CRM Integration Support',
+        '👥 50 Lead & Account Saves',
+        '🎓 LinkedIn Learning Access',
+        '🔐 Private Account Activation'
+      ],
+      price: '₹4499',
+      originalPrice: '₹47,999',
+      plan: 'LinkedIn-Sales-Navigator-12M-4499',
+      note: '⏳ Valid for 12 Months • Only ₹375/month • Best for B2B sales teams 🚀'
     }
   ],
   replit: [
